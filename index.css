@@ -8,6 +8,10 @@ body{
     font-size: 14px;
     font-family: 'Alata', sans-serif;
 }
+h1,
+p{
+    color:hsl(0, 0%, 55%);
+}
 .hero {
     background: url("./images/desktop/image-hero.jpg");
     background-position: center;
@@ -20,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    margin-left: 70px;
     
 }
 nav ul {
@@ -36,34 +41,33 @@ nav ul {
     letter-spacing: 1px;
     text-decoration: none;
   }
-  nav ul li a :hover {
+  nav ul li a:hover {
     cursor: pointer;
   }
-  nav ul li a :active{
+  nav ul li a:active{
     text-decoration: underline;
   }
   .hero-text{
      padding-top: 30px;
-      padding-bottom: 70px;
+      padding-bottom: 120px;
   }
   .hero-text h1{
       font-weight: 300;
       font-size: 45px;
       width: 45%;
-      color:hsl(0, 0%, 55%);
       border: 2px solid hsl(0, 0%, 100%) ;
-      margin-left: 30px;
+      margin-left: 100px;
       text-transform: uppercase;
       padding: 41px;
   }
   .about{
-      width: 90%;
+      width: 80%;
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 50px;
-      margin-left: 30px;
+      margin-top: 89px;
+      margin-left: -250px;
   }
   .about img {
       width: 40%;
@@ -71,10 +75,35 @@ nav ul {
   .about-text{
     background: hsl(0, 0%, 100%) ;
     box-shadow: 0 0 10px hsl(0, 0%, 100%) ;
-    border-radius: 10px;
     position: absolute;
     width: 40%;
     padding: 40px;
-    right: -56px;
+    right: -25px;
     bottom: 0
+  }
+  .about-text h1{
+    font-size: 28px;
+    width: 70%;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+  } 
+  .creation{
+      padding:  100px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .creation h1{
+    font-size:28px;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .creation button{
+      padding: 10px;
+      color: hsl(0, 0%, 55%);
+      width: 100px;
+      cursor: pointer;
+  }
+.creation button:hover {
+    background: hsl(0, 0%, 0%);
   }
