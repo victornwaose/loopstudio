@@ -12,6 +12,9 @@ h1,
 p{
     color:hsl(0, 0%, 55%);
 }
+h1{
+    text-transform: uppercase;
+}
 .hero {
     background: url("./images/desktop/image-hero.jpg");
     background-position: center;
@@ -88,8 +91,12 @@ nav ul {
     text-align: left;
     margin-bottom: 10px;
   } 
+  .product{
+    padding:  100px;
+    position: relative;
+  }
   .creation{
-      padding:  100px;
+      
       display: flex;
       justify-content: space-between;
   }
@@ -107,3 +114,121 @@ nav ul {
 .creation button:hover {
     background: hsl(0, 0%, 0%);
   }
+  .grid{
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      position: relative;
+  }
+  .grid_one {
+    background-image: url("./images/desktop/image-deep-earth.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+  }
+  .grid_one h1 {
+      position: absolute;
+      left: 0;
+      top: 480px;
+  }
+  .grid_two {
+    background-image: url("./images/desktop/image-night-arcade.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_two h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_three {
+    background-image: url("./images/desktop/image-soccer-team.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_three h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_four {
+    background-image: url("./images/desktop/image-grid.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_four h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_five {
+    background-image: url("./images/desktop/image-from-above.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_five h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_six {
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_six h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_seven {
+    background-image: url("./images/desktop/image-curiosity.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_seven h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
+  .grid_eight {
+    background-image: url("./images/desktop/image-fisheye.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    position: relative;
+  }
+  .grid_eight h1 {
+    position: absolute;
+    left: 0;
+    top: 480px;
+}
